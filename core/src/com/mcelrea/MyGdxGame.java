@@ -26,7 +26,7 @@ public class MyGdxGame extends ApplicationAdapter {
 
 	ArrayList<Animal> animals = new ArrayList<>();
 	public void addAnimals() {
-		animals.add(new Animal(50, 700));
+		animals.add(new Gambler(50, 700));
 		animals.add(new Hare(50, 400));
 		animals.add(new Turtle(50, 100));
 	}
